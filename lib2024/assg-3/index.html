@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>HTML Forms</title>
+</head>
+<body>
+	<div id="wrapper" class="wrapper">
+		<section id="html-forms" class="main-section">
+			<form action="somepage.php" method="get">
+				<div id="fn-container" class="form-elm">
+					<label for="FirstName">First Name</label>
+					<input type="text" name="FirstName" id="FirstName" placeholder="Enter First name here" required>
+				</div>
+				<div id="In-container" class="form-elm">
+					<label for="LastName">Last Name</label>
+					<input type="text" name="LastName" placeholder="Enter your Last Name here" required>
+				</div>
+				<div id="email-container" class="form-elm">
+					<label for="email">Email ID</label>
+					<input type="email" name="email" id="email" value="example4@g.com" readonly>
+				</div>
+				<div id="pass-container" class="form-elm"
+					<label for="pass">Password</label>
+					<input type="password" name="pass" id="pass" required>
+				</div>
+				<div id="intro-container" class="form-elm">
+					<label for="introductory text">Introductory Text</label>
+					<textarea name="introductory text" id="introductory text" placeholder="Enter text here">Enter text here</textarea>
+				</div>
+				<div id="Date of Birth-container" class="form-elm">
+					<label for="Date of Birth">Date of Birth</label>
+					<input type="Date" name="Date of Birth" id="Date of Birth">
+				</div>
+				<div id="Mobile-container" class="form-elm">
+					<label for="Mobile Number">Mobile Number</label>
+					<input type="Mobile Number" name="Mobile Number" id="Mobile Number">
+				</div>
+				<div id="Radio-container" class="form-elm">
+					<p>Gender</p>
+					<label for="Male"
+					<input type="radio" name="Gender" id="Male" value="Male" checked>
+					Male
+				</label>
+				<label>
+					<input type="radio" name="Gender" id="Female" value="Female">
+					Female
+				</label>
+				</div>
+				<div id="Address-container" class="form-elm">
+					<label for="Address">Address</label>
+					<input type="Text" name="Address">
+				</div>
+				<div id="city-container" class="form-elm">
+					<label for="City">City</label>
+					<input type="Text" name="City">
+				</div>
+				<div id="province container" class="form-elm">
+				<label for="Province">Province</label>
+				<select id="Province" name="Province">
+					<optgroup label="Province">
+						<option value="Alberta">Alberta</option>
+						<option value="British Columbia">Britsh Columbia</option>
+						<option value="Manitoba">Manitoba</option>
+						<option value="New Brunswick">New Brunswick</option>
+						<option value="Newfounland and Labrador">Newfounland and Labrador</option>
+						<option value="Nova Scotia">Nova Scotia</option>
+						<option value="Ontario">Ontario</option>
+						<option value="Prince Edward Island"></option>
+						<option value="Quebec">Quebec</option>
+						<option value="Saskatchewan">Saskatchewan</option>
+					</optgroup>
+				</select>
+				</div>
+				<div id="country container" class="form-elm">
+				<label for="Country">Country</label>
+				<select id="Country" name="Country">
+					<option value="Canada">Canada</option>
+					<option value="United States">United States</option>
+					<option value="Europe">Europe</option>
+					<option value="Asia">Asia</option>
+				</optgroup>
+				</select>
+				</div>
+			<div id="Postal code container" class="form-elm">
+				<label for="Postal Code">Postal Code</label>
+				<input type="type" name="Postal Code">
+			</div>
+			<div id="hobbies-container" class="form-elm">
+				<h3>Hobbies/Interests</h3>
+					<label for="sports">Sports</label>
+					<input type="checkbox" name="hobbies" id="sports" value="sports"> <br>
+
+					<label for="cooking">Cooking</label>
+					<input type="checkbox" name="hobbies" id="cooking" value="cooking"> <br>
+
+					<label for="reading">Reading</label>
+					<input type="checkbox" name="hobbies" id="reading" value="reading"> <br>
+
+					<label for="other">Other</label>
+					<input type="checkbox" name="hobbies" id="other" value="other">
+			</div> <br>
+				<label for="ur">Website (URL)</label>
+				<input type="url" name="ur" id="ur"> 
+				<br>
+				<br>
+				<button type="submit">Submit</button>	
+				<button type="reset">Reset</button>
+		</form>
+		</section>
+	</div>
+</body>
+</html>
